@@ -1,3 +1,4 @@
+import numpy as np
 from scipy.special import comb
 
 def compute_cer(y_true, labels_pred, errors, true_outliers, n_clusters):
